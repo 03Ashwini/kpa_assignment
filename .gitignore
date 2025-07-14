@@ -1,0 +1,20 @@
+# Ignore database and environment
+db.sqlite3
+*.sqlite3
+.env
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore migration folders (if created by apps)
+*/migrations/
+migrations/
+
+# Ignore logs
+*.log
+
+# VSCode settings (optional)
+.vscode/
